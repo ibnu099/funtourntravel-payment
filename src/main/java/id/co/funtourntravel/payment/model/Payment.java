@@ -1,11 +1,20 @@
 package id.co.funtourntravel.payment.model;
 
+import jakarta.persistence.*;
 import org.springframework.stereotype.Component;
 
-@Component
+@Entity
+@Table(name = "tbl_payment")
 public class Payment {
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(name = "payment_name")
     private String paymentName;
+
+    @Column(name = "payment_type")
     private String paymentType;
 
     public int getId() {
