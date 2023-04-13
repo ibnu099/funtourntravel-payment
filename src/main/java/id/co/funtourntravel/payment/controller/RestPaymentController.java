@@ -1,12 +1,14 @@
 package id.co.funtourntravel.payment.controller;
 
 import id.co.funtourntravel.payment.model.Payment;
+import id.co.funtourntravel.payment.model.Transaction;
 import id.co.funtourntravel.payment.repo.PaymentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Random;
 
 @RestController
 @RequestMapping("api")
@@ -45,5 +47,18 @@ public class RestPaymentController {
     @ResponseStatus(HttpStatus.OK)
     public void deletePayment(@PathVariable("id") int id){
         paymentRepo.deleteById(id);
+    }
+
+    @PostMapping("/pay")
+    @ResponseStatus(HttpStatus.OK)
+    public String payTour(@RequestBody Transaction transaction){
+        Random random = new Random();
+        int randomNumber = random.nextInt(2);
+        if (randomNumber == 0) {
+            return "Gagal";
+        } else {
+            return "Sukses";
+        }
+
     }
 }

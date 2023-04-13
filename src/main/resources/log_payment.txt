@@ -1,24 +1,21 @@
-2023-04-12T22:22:40.165+07:00  INFO 17112 --- [main] i.c.f.payment.PaymentApplication         : Starting PaymentApplication using Java 18.0.2.1 with PID 17112 (C:\Users\Ibnu Gunawan\Documents\GitHub\funtourntravel-payment\target\classes started by Ibnu Gunawan in C:\Users\Ibnu Gunawan\Documents\GitHub\funtourntravel-payment)
-2023-04-12T22:22:40.168+07:00  INFO 17112 --- [main] i.c.f.payment.PaymentApplication         : No active profile set, falling back to 1 default profile: "default"
-2023-04-12T22:22:41.027+07:00  INFO 17112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-12T22:22:41.117+07:00  INFO 17112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
-2023-04-12T22:22:41.971+07:00  INFO 17112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
-2023-04-12T22:22:41.983+07:00  INFO 17112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-12T22:22:41.983+07:00  INFO 17112 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
-2023-04-12T22:22:42.128+07:00  INFO 17112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-12T22:22:42.129+07:00  INFO 17112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1895 ms
-2023-04-12T22:22:42.312+07:00  INFO 17112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-04-12T22:22:42.552+07:00  INFO 17112 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4519f676
-2023-04-12T22:22:42.555+07:00  INFO 17112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-04-12T22:22:42.612+07:00  INFO 17112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-04-12T22:22:42.685+07:00  INFO 17112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
-2023-04-12T22:22:43.124+07:00  WARN 17112 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
-2023-04-12T22:22:43.131+07:00  INFO 17112 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2023-04-12T22:22:43.996+07:00  INFO 17112 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-04-12T22:22:44.009+07:00  INFO 17112 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-12T22:22:44.473+07:00  WARN 17112 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-12T22:22:44.878+07:00  INFO 17112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
-2023-04-12T22:22:44.887+07:00  INFO 17112 --- [main] i.c.f.payment.PaymentApplication         : Started PaymentApplication in 5.386 seconds (process running for 6.132)
-2023-04-12T22:28:23.024+07:00  INFO 17112 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-04-12T22:28:23.028+07:00  INFO 17112 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-04-12T22:28:23.044+07:00  INFO 17112 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-13T15:11:32.485+07:00  INFO 25096 --- [main] i.c.f.payment.PaymentApplication         : Starting PaymentApplication using Java 18.0.2.1 with PID 25096 (C:\Users\Ibnu Gunawan\Documents\GitHub\funtourntravel-payment\target\classes started by Ibnu Gunawan in C:\Users\Ibnu Gunawan\Documents\GitHub\funtourntravel-payment)
+2023-04-13T15:11:32.499+07:00  INFO 25096 --- [main] i.c.f.payment.PaymentApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-13T15:11:33.402+07:00  INFO 25096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-13T15:11:33.497+07:00  INFO 25096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2023-04-13T15:11:34.353+07:00  INFO 25096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2023-04-13T15:11:34.366+07:00  INFO 25096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-13T15:11:34.366+07:00  INFO 25096 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-13T15:11:34.522+07:00  INFO 25096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-13T15:11:34.523+07:00  INFO 25096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1962 ms
+2023-04-13T15:11:34.689+07:00  INFO 25096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-13T15:11:34.931+07:00  INFO 25096 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77db3d02
+2023-04-13T15:11:34.934+07:00  INFO 25096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-13T15:11:34.992+07:00  INFO 25096 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-13T15:11:35.088+07:00  INFO 25096 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-13T15:11:35.554+07:00  WARN 25096 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-04-13T15:11:35.561+07:00  INFO 25096 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-13T15:11:36.431+07:00  INFO 25096 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-13T15:11:36.443+07:00  INFO 25096 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-13T15:11:36.881+07:00  WARN 25096 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-13T15:11:37.279+07:00  INFO 25096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2023-04-13T15:11:37.287+07:00  INFO 25096 --- [main] i.c.f.payment.PaymentApplication         : Started PaymentApplication in 5.464 seconds (process running for 6.015)
